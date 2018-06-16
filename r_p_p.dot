@@ -1,0 +1,22 @@
+digraph G {
+    graph [dpi=300];
+    node [shape=box];
+    compound=true;
+    // "Data Feeder";
+    "Static Content Controller";
+    "Dynamic Content Controller";
+    // "Data Feeder" -> "Static Content Controller"[dir=back];
+    // "Data Feeder" -> "Dynamic Content Controller"[dir=back];
+    "Static Content Controller" -> "Static Content"[lhead=cluster_0,label="    "];
+    subgraph cluster_0 {
+        label="Page";
+        labeljust="l";
+        "Static Content";
+        "JS scripts";
+        "Dynamic Content";
+        color=black;
+    }
+    "Dynamic Content Controller" -> "JS scripts"[dir=back,color=blue];
+    "Dynamic Content Controller" -> "Dynamic Content"[color=blue];
+    "Static Content Controller" -> "Request"[dir=back];
+}

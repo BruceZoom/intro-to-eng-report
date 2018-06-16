@@ -1,0 +1,36 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Report Overview}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Special Specification}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Project Overview}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Website Overview}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Project Structure}{3}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Website Structure}{3}{subsubsection.2.2.1}
+\contentsline {paragraph}{Pages}{3}{section*.2}
+\contentsline {subparagraph}{\textit {Home Page}}{3}{section*.3}
+\contentsline {subparagraph}{\textit {Result Page}}{3}{section*.4}
+\contentsline {subparagraph}{\textit {Information Page}}{3}{section*.5}
+\contentsline {subparagraph}{\textit {Stats Page}}{3}{section*.6}
+\contentsline {subsubsection}{\numberline {2.2.2}Directory Structure}{4}{subsubsection.2.2.2}
+\contentsline {paragraph}{application}{4}{section*.7}
+\contentsline {paragraph}{assets}{4}{section*.8}
+\contentsline {subsubsection}{\numberline {2.2.3}Request Process Procedure}{4}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Thirdparty packages and libraries}{4}{subsubsection.2.2.4}
+\contentsline {subsection}{\numberline {2.3}Project Organization}{4}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Workload Division}{4}{subsubsection.2.3.1}
+\contentsline {paragraph}{Zhan Xinyu}{4}{section*.9}
+\contentsline {paragraph}{Wang Zhongye}{4}{section*.10}
+\contentsline {paragraph}{Xie Yichen}{4}{section*.11}
+\contentsline {paragraph}{Yue Ye}{5}{section*.12}
+\contentsline {subsubsection}{\numberline {2.3.2}Collaboration with Git and Github}{5}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Website Deploy}{5}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}Frontend Implementation}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Overview}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}UI Design}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Data Visualization}{5}{subsection.3.3}
+\contentsline {section}{\numberline {4}Functionality Implementation}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Backend Implementation}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Visualization Implementation}{5}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Label Extraction}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Paper Recommendation}{5}{subsection.4.4}
+\contentsline {section}{\numberline {5}Future Work}{5}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{5}{section.6}

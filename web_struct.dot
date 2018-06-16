@@ -1,0 +1,30 @@
+digraph G {
+    graph [dpi=300];
+    rankdir=LR;
+    node [shape=box];
+    "Home Page" -> "Result Page"[dir=both];
+    "Result Page" -> "Author Page"[dir=both];
+    "Result Page" -> "Affiliation Page"[dir=both];
+    "Result Page" -> "Conference Page"[dir=both];
+    "Result Page" -> "Paper Page"[dir=both];
+    subgraph cluster_0 {
+        "Author Page" -> "Author Stats"[dir=both];
+        style=filled;
+        color=lightgrey;
+    }
+    subgraph cluster_1 {
+        "Affiliation Page" -> "Affiliation Stats"[dir=both];
+        style=filled;
+        color=lightgrey;
+    }
+    subgraph cluster_2 {
+        "Conference Page" -> "Conference Stats"[dir=both];
+        style=filled;
+        color=lightgrey;
+    }
+    subgraph cluster_3 {
+        "Paper Page" -> "Paper Stats"[dir=both];
+        style=filled;
+        color=lightgrey;
+    }
+}
