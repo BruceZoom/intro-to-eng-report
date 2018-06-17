@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.6.16)  16 JUN 2018 22:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.6.16)  17 JUN 2018 09:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -382,7 +382,11 @@ Package hyperref Warning: Option `backref' has already been used,
 (hyperref)                setting the option has no effect on input line 52.
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 52.
-(./report.aux)
+(./report.aux
+
+LaTeX Warning: Label `fig:web_struct' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -483,35 +487,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--88
 File: web_struct.png Graphic file (type bmp)
 <web_struct.png>
 [3]
+File: directory.png Graphic file (type bmp)
+<directory.png>
+ [4]
 File: r_p_p.png Graphic file (type bmp)
 <r_p_p.png>
- [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+ [5] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (./report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 64AF561E746F1C21129861AAFD3D5D26.
 
 
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: 2E7366AD8BFC6B1D94135C62E892B109
-(rerunfilecheck)             After:  64AF561E746F1C21129861AAFD3D5D26.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 11891 strings out of 492970
- 163823 string characters out of 6139408
- 259819 words of memory out of 5000000
- 15773 multiletter control sequences out of 15000+600000
+ 11894 strings out of 492970
+ 163881 string characters out of 6139408
+ 261004 words of memory out of 5000000
+ 15775 multiletter control sequences out of 15000+600000
  10424 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  28i,6n,45p,681b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (5 pages).
+Output written on report.pdf (6 pages).

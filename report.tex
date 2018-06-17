@@ -96,13 +96,46 @@ These pages are organized into the structure showed in the following chart:
 As the chart shows, users will first visit our \textit{Home Page}, input some keywords, and press Enter. The page will redirect to \textit{Result Page}, and after user click one of the links present there, it will jump to the \textit{Information Pages}, which includes \textit{Author Page}, \textit{Affiliation Page}, \textit{Conference Page} and \textit{Paper Page}. From the navigation bar on the top of the \textit{Information Pages}, users can direct to the \textit{Stats Pages} corresponding to the \textit{Information Pages}. All pages can return to the \textit{Result Page} of the most recent query, and the \textit{Home Page}.
 
 \subsubsection{Directory Structure}
-
 In this project we use Code Igniter framework. The framework features MVC design pattern and a bunch of utility and helper funcitons. As a result, we mainly write codes and 
 The directory structure of out project is like following:
 \paragraph{application}\ 
 This directory contains the php scripts that runs on the server and fulfill different jobs. These files mainly fall into three category: controllers, models and views, which follows the MVC design pattern.
+\subparagraph{controllers}\ 
+\begin{enumerate}
+\item Lab.php\\
+  Static Content Controller for all pages. Also provides dynamic content for text queries.
+\item Autocomplete.php\\
+  Dynamic Content Controller for all input box's auto completion.
+\item Label.php\\
+  Dynamic Content Controller for label extraction and paper recommendation.
+\item Visual.php\\
+  Dynamic Content Controller for visualization graphs and charts.
+\item Pagin.php\\
+  Dynamic Content Controller for pagination bar and corresponding js code.
+\end{enumerate}
+\subparagraph{models}\ 
+\begin{enumerate}
+\item Lab\_model.php\\
+  Data Provider for all text queries.
+\item Visual\_model.php\\
+  Data Provider for queries from visualization graphs and charts.
+\item Label\_model.php\\
+  Data Provider for label extraction and paper recommendation.
+\end{enumerate}
+\subparagraph{views}\
+The directory contains multiple sub-directories.
 \paragraph{assets}\
+This directory contains the css files and js scripts that will be sent to the client side and processed by the browser.
+\subparagraph{css}\
+\subparagraph{js}\ 
 
+Overview:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{directory.png}
+  \caption{Directory Structure}
+  \label{fig:web_struct}
+\end{figure}
 
 \subsubsection{Request Process Procedure}
 The \textit{Result Page}, \textit{Information Pages} and \textit{Stats Pages} all involves many dynamic content loaded by js scripts from client side. To keep things simple, we design a standard and uniform request process procedure, and write some utilitiy functions for it.
