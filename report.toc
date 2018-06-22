@@ -15,27 +15,32 @@
 \contentsline {subparagraph}{controllers}{4}{section*.8}
 \contentsline {subparagraph}{models}{4}{section*.9}
 \contentsline {subparagraph}{views}{4}{section*.10}
-\contentsline {paragraph}{assets}{4}{section*.11}
-\contentsline {subparagraph}{css}{4}{section*.12}
+\contentsline {paragraph}{assets}{5}{section*.11}
+\contentsline {subparagraph}{css}{5}{section*.12}
 \contentsline {subparagraph}{js}{5}{section*.13}
-\contentsline {subsubsection}{\numberline {2.2.3}Request Process Procedure}{5}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}Thirdparty packages and libraries}{6}{subsubsection.2.2.4}
-\contentsline {subsection}{\numberline {2.3}Project Organization}{6}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Workload Division}{6}{subsubsection.2.3.1}
-\contentsline {paragraph}{Zhan Xinyu}{6}{section*.14}
-\contentsline {paragraph}{Wang Zhongye}{6}{section*.15}
-\contentsline {paragraph}{Xie Yichen}{6}{section*.16}
-\contentsline {paragraph}{Yue Ye}{6}{section*.17}
-\contentsline {subsubsection}{\numberline {2.3.2}Collaboration with Git and Github}{6}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}Website Deploy}{6}{subsubsection.2.3.3}
-\contentsline {section}{\numberline {3}Frontend Implementation}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}Overview}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}UI Design}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Data Visualization}{6}{subsection.3.3}
-\contentsline {section}{\numberline {4}Functionality Implementation}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}Backend Implementation}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Visualization Implementation}{6}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Label Extraction}{6}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Paper Recommendation}{6}{subsection.4.4}
-\contentsline {section}{\numberline {5}Future Work}{6}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{6}{section.6}
+\contentsline {subsubsection}{\numberline {2.2.3}Request Process Procedure: \textbf {Page framework} \& \textbf {Page Content}}{6}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Project Organization}{7}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Workload Division}{7}{subsubsection.2.3.1}
+\contentsline {paragraph}{Zhan Xinyu}{7}{section*.14}
+\contentsline {paragraph}{Wang Zhongye}{7}{section*.15}
+\contentsline {paragraph}{Xie Yichen}{7}{section*.16}
+\contentsline {paragraph}{Yue Ye}{7}{section*.17}
+\contentsline {subsubsection}{\numberline {2.3.2}Collaboration with Git and Github}{7}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Third party packages and libraries}{7}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Website Deploy}{7}{subsubsection.2.3.4}
+\contentsline {section}{\numberline {3}Frontend Implementation}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Overview}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}UI Design}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Data Visualization}{7}{subsection.3.3}
+\contentsline {section}{\numberline {4}Functionality Implementation}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Backend Implementation}{7}{subsection.4.1}
+\contentsline {paragraph}{Pagination Bar Generator}{7}{section*.18}
+\contentsline {subparagraph}{dyn\_pagin.php}{7}{section*.19}
+\contentsline {subparagraph}{View: dyn\_pagin\_savevar.php}{9}{section*.20}
+\contentsline {subparagraph}{Controller: Lab.php}{9}{section*.21}
+\contentsline {subparagraph}{Views: <entity>.table.php \& <entity>.content.php}{12}{section*.22}
+\contentsline {subsection}{\numberline {4.2}Visualization Implementation}{13}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Label Extraction}{13}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Paper Recommendation}{13}{subsection.4.4}
+\contentsline {section}{\numberline {5}Future Work}{13}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{13}{section.6}
